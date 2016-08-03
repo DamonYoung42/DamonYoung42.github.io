@@ -1,5 +1,6 @@
 body {
-	background-color: gray;
+	background: gray;
+	
 }
 
 img {
@@ -67,4 +68,3 @@ footer {
 header {
 	text-align: center;
 }
-
