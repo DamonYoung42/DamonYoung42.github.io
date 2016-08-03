@@ -1,0 +1,70 @@
+body {
+	background-color: gray;
+}
+
+img {
+	padding: 20px;
+
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+input {
+	padding: 5px;
+	margin: 5px;
+}
+
+.routeTable {
+	padding: 10px;
+	margin: 20px;
+	font-size: 18px;
+
+}
+
+#introduction {
+	font-size: 16px;
+	font-family: Arial;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+a {
+	font-size: 20px;
+}
+
+label {
+	color: blue;
+}
+
+th {
+	font-size: 24px;
+}
+
+
+#motivate {
+	font-size: 16px;
+	font-family: Arial;
+}
+
+p {
+	font-size: 18px;
+}
+
+
+footer:before {
+	content: "Copyright 2016 - Damon P. Young";
+}
+
+footer {
+	text-align: center;
+}
+
+header {
+	text-align: center;
+}
+

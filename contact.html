@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Running through life</title>
+		<meta name="description" content="A running site to help learn HTML">
+		<meta name="keywords" content="damon, demo">
+		<meta name="author" content="Damon">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"> 
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+
+	<body>
+	<section class="container">
+	    <nav class="navbar navbar-default">
+	        <div class="container-fluid">
+	        	<div class="navbar-header">
+	          		<img class="navbar-brand" src="man-running-orange-clip-art.png" alt="Running icon." title="Running icon.">
+	            	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	              		<span class="sr-only">Toggle navigation</span>
+	              		<span class="icon-bar"></span>
+	              		<span class="icon-bar"></span>
+	              		<span class="icon-bar"></span>
+	            	</button>
+	        	</div>
+	            
+	            <div id="navbar" class="navbar-collapse collapse">
+	            	<ul class="nav navbar-nav">
+	              		<li><a href="index.html">Home</a></li>
+	              		<li><a href="favorites.html">Favorites</a></li>
+	              		<li class="active"><a href="contact.html">Contact</a></li>
+	            	</ul>
+	          	</div><!--/.nav-collapse -->
+	        </div><!--/.container-fluid -->
+	    </nav>
+
+		<section class="row">
+			<header class="col-sm-12">
+				<h1>Get in touch with us</h1>
+			</header>
+		</section>
+
+		<section class="row">
+			<section class="col-sm-12">
+				<form action="mailto:damonyoung@wi.rr.com?Subject=Running" method="post">
+					<fieldset>	
+						<section class="row">
+						<section class="col-sm-6">
+						<label for="firstName">First Name:</label><input type="text" placeholder="Enter your first name" name="firstName" id="firstName">
+						</section>
+
+						<section class="col-sm-6">
+						<label for="lastName">Last Name:</label><input type="text" placeholder="Enter your last name" name="lastName" id="lastName">
+						</section>
+						</section>
+
+						<section class="row">
+						<section class="col-sm-6">
+						<label for="email">Email:</label><input type="email" placeholder="Enter your email address" name="email" id="email">
+						</section>
+
+						<section class="col-sm-6">						
+						<label for="telephone">Telephone:</label><input type="tel" placeholder="Enter your phone number" name="telephone" id="telephone">
+						</section>
+						</section>
+
+						<section class="row">
+						<section class="col-sm-12">
+						<label for="comments">Comments:</label>
+						<br >
+						<textarea rows="10" cols="104" name="comments" id="comments"></textarea>
+						<br>
+						<button type="submit" class="btn btn-success">Send</button>
+						<button type="reset" class="btn btn-danger">Reset</button>
+						</section>
+						</section>
+
+					</fieldset>
+				</form>
+			</section>
+		</section>
+
+		<section class="row">
+			<footer class="col-sm-12"></footer>
+		</section>
+
+	</section>
+
+	<script src="js/bootstrap.min.js"></script>
+  	<script src="js/bootstrap.js"></script>
+  	
+	</body>
+</html>
