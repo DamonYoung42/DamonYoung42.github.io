@@ -36,6 +36,7 @@ a:hover {
 
 a {
 	font-size: 20px;
+	color: orange;
 }
 
 label {
@@ -75,4 +76,9 @@ header {
 
 #comments {
 	width: 100%;
+}
+
+.quote {
+	font-size: 16px;
+	font-style: italic;
 }
